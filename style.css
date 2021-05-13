@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Reggae+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.7rem;
+
+}
+.navbar ul{
+	display: flex;
+
+
+}
+.navbar ul li{
+	list-style: none;
+}
+.navbar ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+	font-family: 'Noto sans jp', sans-serif;
+}
+.navbar ul li a:hover{
+	background-color: green;
+}
+.logo{
+	font-family: 'Lobster', cursive;
+
+}
+.color-text{
+	color: #AAE51E;
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center; /*----------(whenever you enter flex you have to align items coz it by default arranges in one by one way)*/
+	justify-content: center;
+	overflow: hidden;
+}
+.header h1{
+	text-align: center;
+	font-size: 6rem;
+	font-family: 'Noto sans jp', sans-serif;
+	z-index: 1;
+	color: white;
+
+}
+.video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100vh;
+}
